@@ -19,6 +19,7 @@
     <!--设置边距-->
     <padding
         android:left="8dp"
-        android:right="8dp"/>
+        android:right="8dp"
+        android:bottom="10dp"/>
 
 </shape>
