@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--背景色-->
+    <solid android:color="@color/red"/>
+
+    <!--边框色-->
+    <stroke
+        android:width="4dp"
+        android:color="@color/yellow"/>
+
+    <!--设置圆角半径-->
+    <corners
+        android:topLeftRadius="@dimen/yellow_square_corners"
+        android:topRightRadius="@dimen/yellow_square_corners"
+        android:bottomLeftRadius="@dimen/yellow_square_corners"
+        android:bottomRightRadius="@dimen/yellow_square_corners"/>
+
+    <!--设置边距-->
+    <padding
+        android:left="8dp"
+        android:right="8dp"/>
+
+</shape>
